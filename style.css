@@ -1,0 +1,99 @@
+.div1{
+    text-align: center;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(244, 149, 25) !important;
+}
+.res{
+    color: white;
+}
+.container {
+    margin-top: 20px;
+    /* background-color: rgb(158, 68, 8); */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    padding: 20px;
+   
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="file"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    margin-top: 10px;
+    padding: 12px 20px;
+    background-color: #3498db;
+    color: #0d0d0d;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-secondary {
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 12px 20px;
+    background-color: #0b1710;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-12,
+.col-sm-12,
+.col-md-12,
+.col-lg-6 {
+    flex: 0 0 48%;
+}
+
+/* Additional styling for project and certification sections */
+.projrct1 {
+    margin-bottom: 20px;
+}
+
+#certi {
+    margin-bottom: 20px;
+}
+.genbtn{
+    margin-left: 40%;
+}
+/* Add your custom styles below */
+.style{
+ color: rgb(250, 245, 245);
+
+}
